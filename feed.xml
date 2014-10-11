@@ -4,10 +4,10 @@
     <title>Blog - Valentin Kirilov</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 11 Oct 2014 14:41:51 +0300</pubDate>
-    <lastBuildDate>Sat, 11 Oct 2014 14:41:51 +0300</lastBuildDate>
+    <link>valkirilov.github.io/blog//blog/</link>
+    <atom:link href="valkirilov.github.io/blog//blog/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 11 Oct 2014 15:14:32 +0300</pubDate>
+    <lastBuildDate>Sat, 11 Oct 2014 15:14:32 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Sat, 11 Oct 2014 15:20:01 +0300</pubDate>
-        <link>http://0.0.0.0:4000/jekyll/update/2014/10/11/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/jekyll/update/2014/10/11/welcome-to-jekyll.html</guid>
+        <link>valkirilov.github.io/blog//blog/jekyll/update/2014/10/11/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">valkirilov.github.io/blog//blog/jekyll/update/2014/10/11/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -44,13 +44,13 @@
 
 &lt;p&gt;Let’s add an image
 … which is shown in the screenshot below:
-&lt;img src=&quot;http://0.0.0.0:4000/assets/images/posts/2014-10-11-first-post/IMG_3901.JPG&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;valkirilov.github.io/blog//assets/images/posts/2014-10-11-first-post/IMG_3901.JPG&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;… you can &lt;a href=&quot;http://0.0.0.0:4000/assets/pdfs/61701.pdf&quot;&gt;get the PDF&lt;/a&gt; directly.&lt;/p&gt;
+&lt;p&gt;… you can &lt;a href=&quot;valkirilov.github.io/blog//assets/pdfs/61701.pdf&quot;&gt;get the PDF&lt;/a&gt; directly.&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Oct 2014 00:00:00 +0300</pubDate>
-        <link>http://0.0.0.0:4000/js/css/2014/10/11/first-post.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/js/css/2014/10/11/first-post.html</guid>
+        <link>valkirilov.github.io/blog//blog/js/css/2014/10/11/first-post.html</link>
+        <guid isPermaLink="true">valkirilov.github.io/blog//blog/js/css/2014/10/11/first-post.html</guid>
         
         
         <category>js</category>
