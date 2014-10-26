@@ -7,5 +7,11 @@
     <meta name="description" content="{{ site.description }}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+
+    <!-- Loading Bootstrap styles -->
+    <link rel="stylesheet" href="{{ '/bower_components/bootstrap/dist/css/bootstrap.min.css' | prepend: site.baseurl }}" />
+    <link rel="stylesheet" href="{{ '/bower_components/bootstrap/dist/css/bootstrap-theme.min.css' | prepend: site.baseurl }}" />
+
+    <script src="{{ "/bower_components/jquery/dist/jquery.js" | prepend: site.baseurl }}"></script>
 </head>

@@ -1,0 +1,15 @@
+@mixin transform($string) {
+  transform:          $string;
+  -webkit-transform:  $string;
+  -moz-transform:     $string;
+  -o-transform:       $string;
+  -ms-transform:      $string;
+}
+
+@mixin transition($duration, $after) {
+  transition:         $duration $after;
+  -webkit-transition: $duration $after;
+  -moz-transition:    $duration $after;
+  -o-transition:      $duration $after;
+  -ms-transition:     $duration $after;
+}

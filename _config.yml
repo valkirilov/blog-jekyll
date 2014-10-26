@@ -1,3 +1,4 @@
+
 # Site settings
 title: Blog - Valentin Kirilov
 email: val.kirilov[at-@]gmail.com
@@ -12,6 +13,7 @@ github_username:  valkirilov
 
 # Build settings
 markdown: kramdown
+disqus-shortname: valkirilov
 
 # Default setting for templates and etc.
 defaults:
