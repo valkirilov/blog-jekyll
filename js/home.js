@@ -35,4 +35,9 @@ $(document).ready(function() {
     }
 
  });
+
+ // Attacj flip event to project tiles
+ $(document).on('touchstart', '.project', function() {
+   $(this).classList.toggle('hover');
+ });
 });

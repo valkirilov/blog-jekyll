@@ -47,22 +47,14 @@ layout: home
 
       <div class="row">
         <div class="col-sm-4 project">
-          <img src="{{ "/images/background.jpg" | prepend: site.baseurl }}" />
-        </div>
-        <div class="col-sm-4 project">
-          <img src="{{ "/images/background-01.jpg" | prepend: site.baseurl }}" />
-        </div>
-        <div class="col-sm-4 project">
-          <img src="{{ "/images/background-02.jpg" | prepend: site.baseurl }}" />
-        </div>
-        <div class="col-sm-4 project">
-          <img src="{{ "/images/background-03.jpg" | prepend: site.baseurl }}" />
-        </div>
-        <div class="col-sm-4 project">
-          <img src="{{ "/images/background-04.jpg" | prepend: site.baseurl }}" />
-        </div>
-        <div class="col-sm-4 project">
-          <img src="{{ "/images/background-05.jpg" | prepend: site.baseurl }}" />
+          <div class="flipper">
+            <div class="front">
+              <img src="{{ "/images/background.jpg" | prepend: site.baseurl }}" />
+            </div>
+            <div class="back">
+              <img src="{{ "/images/background-01.jpg" | prepend: site.baseurl }}" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

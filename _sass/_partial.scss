@@ -6,10 +6,22 @@
   -ms-transform:      $string;
 }
 
-@mixin transition($duration, $after) {
+@mixin transition($duration, $after, $style:preserve-3d) {
   transition:         $duration $after;
   -webkit-transition: $duration $after;
   -moz-transition:    $duration $after;
   -o-transition:      $duration $after;
   -ms-transition:     $duration $after;
+
+  -webkit-transform-style:  $style;
+  -moz-transform-style:     $style;
+  -o-transform-style:       $style;
+  transform-style:          $style;
+}
+
+@mixin perspective($value) {
+  -webkit-perspective:  $value;
+  -moz-perspective:     $value;
+  -o-perspective:       $value;
+  perspective:          $value;
 }
