@@ -25,3 +25,11 @@
   -o-perspective:       $value;
   perspective:          $value;
 }
+
+@mixin border-radous($radius) {
+  border-radius:          $radius;
+  -webkit-border-radius:  $radius;
+  -moz-border-radius:     $radius;
+  -o-border-radius:       $radius;
+  -ms-border-radius:      $radius;
+}

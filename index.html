@@ -19,7 +19,7 @@ layout: home
               <div class="family">Kirilov</div>
           </div>
           <div class="developement">
-              UNDER DEV
+              WEB DEV
           </div>
 
           <div class="decoration-01"></div>
@@ -27,7 +27,7 @@ layout: home
           <div class="decoration-03"></div>
 
           <div class="description">
-              Welcome to my non created portfolio. You can learn more for me from the social networks below until my portfolio is ready.
+              Welcome to my portfolio. You can checkout it to learn more about me or you can find me in the social networks below.
           </div>
 
           <div class="social">
@@ -46,22 +46,66 @@ layout: home
       <hr class="hr-dot" />
 
       <div class="row">
-        <div class="col-sm-4 project">
+
+        <div id="project-jspres" class="col-sm-4 project flip-container jspres">
           <div class="flipper">
             <div class="front">
-              <img src="{{ "/images/background.jpg" | prepend: site.baseurl }}" />
+              <img src="{{ "/images/portfolio/portfolio-jspres.png" | prepend: site.baseurl }}" />
             </div>
             <div class="back">
-              <img src="{{ "/images/background-01.jpg" | prepend: site.baseurl }}" />
+              <div class="project-header">JSpres</div>
+              <div class="project-description">
+                It’s a web tool for creating browser-based presentations with impress.js. All you need is time and imagination to make your presentation unique and awesome to impress your audience. 
+              </div>
+              <div class="project-footer"><a href="http://jspres.com" target="_blank">www.JSpres.com</a></div>
             </div>
+            <div class="clearfix"></div>
           </div>
+          <div class="clearfix"></div>
         </div>
+
+        <div id="project-easy-math" class="col-sm-4 project flip-container easy-math">
+          <div class="flipper">
+            <div class="front">
+              <img src="{{ "/images/portfolio/portfolio-easy-math.png" | prepend: site.baseurl }}" />
+            </div>
+            <div class="back">
+              <div class="project-header">Easy-math</div>
+              <div class="project-description">
+                It's a simple game that challenges your brain and speed of reaction with easy math problems. <br /><br />
+                The game has a few different modes for playing and it allows you to play different levels and difficulties.
+              </div>
+              <div class="project-footer"><a href="http://valkirilov.github.io/easy-math" target="_blank">www.valkirilov.github.io/easy-math</a></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div id="project-what-to-do" class="col-sm-4 project flip-container what-to-do">
+          <div class="flipper">
+            <div class="front">
+              <img src="{{ "/images/portfolio/portfolio-what-to-do.png" | prepend: site.baseurl }}" />
+            </div>
+            <div class="back">
+              <div class="project-header">What to do?</div>
+              <div class="project-description">
+                Sometimes you have a lot of things on your mind and you cannot choose only one to do. This app can help you..<br /><br />
+                What-to-do is a simple web app that helps you to choose what to do from a list with options.
+              </div>
+              <div class="project-footer"><a href="http://valkirilov.github.io/what-to-do" target="_blank">www.valkirilov.github.io/what-to-do</a></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
       </div>
     </div>
   </div>
 
   <div class="parallax-container" data-parallax="scroll" data-bleed="5" data-natural-height="400"
-                                data-image-src="{{ "/images/background.jpg" | prepend: site.baseurl }}"></div>
+                                data-image-src="{{ "/images/parallax/background-03.jpg" | prepend: site.baseurl }}"></div>
 
   <div id="section-about" class="row section about">
     <div class="container">
@@ -77,8 +121,8 @@ layout: home
     </div>
   </div>
 
-  <div class="parallax-container" data-parallax="scroll" data-bleed="5" data-natural-height="400"
-                                data-image-src="{{ "/images/background-03.jpg" | prepend: site.baseurl }}"></div>
+  <div class="parallax-container" data-parallax="scroll" data-bleed="3" data-natural-height="400"
+                                data-image-src="{{ "/images/parallax/background-01.jpg" | prepend: site.baseurl }}"></div>
 
   <div id="section-contacts" class="row section contacts">
 
@@ -89,12 +133,12 @@ layout: home
         <p>Contacts form here.</p>
       </div>
       <div class="col-sm-6">
-        <p>Here I shoudl place something interesting because this is not the ordinary static portfolia, so I mean some cool CSS & JS.</p>
+      <iframe src="http://valkirilov.github.io/easy-math"></iframe>
       </div>
     </div>
   </div>
 
   <div class="parallax-container" data-parallax="scroll" data-bleed="5" data-natural-height="400"
-                                data-image-src="{{ "/images/background-05.jpg" | prepend: site.baseurl }}"></div>
+                                data-image-src="{{ "/images/parallax/background-02.jpg" | prepend: site.baseurl }}"></div>
 
 </div>
