@@ -23,7 +23,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Me me"
+      author: "Valentin Kirilov"
 
 sass:
     style: :compressed

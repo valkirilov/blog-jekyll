@@ -92,8 +92,18 @@
  * Site footer
  */
 .site-footer {
+    background: #2c3e50;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    color: #ecf0f1;
+
+    a {
+        color: #f1c40f;
+
+        &:hover {
+            color: #f39c12;
+        }
+    }
 }
 
 .footer-heading {
@@ -109,7 +119,8 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    /* color: $grey-color; */
+    color: #ecf0f1;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }

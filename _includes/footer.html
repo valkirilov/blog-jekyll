@@ -7,7 +7,8 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li>Software Developer</li>
+          <li>Founder of JSpres</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
@@ -46,7 +47,14 @@
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+        <ul class="posts">  
+          {% for post in site.posts limit:5 %}  
+            <li>  
+              <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>  &raquo; 
+              <span>{{ post.date | date_to_string }}</span>
+            </li>  
+          {% endfor %}  
+        </ul>
       </div>
     </div>
 

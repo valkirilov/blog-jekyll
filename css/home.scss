@@ -42,7 +42,6 @@ body {
 
 
 .parallax-mirror {
-  background: red;
   width: 100%;
   left: 0;
   margin: 0;
@@ -313,7 +312,6 @@ body {
 
 
 .section {
-  background: red;
   min-height: 400px;
   padding: 20px 0 30px 0;
 
@@ -390,7 +388,6 @@ body {
       }
 
       .front {
-        background: red;
         z-index: 2;
         transform: rotateY(0deg);
       }
@@ -453,9 +450,13 @@ body {
 }
 
 footer.site-footer {
-  background: #3FC380;
+  /* background: #3FC380; */
+  background: #2c3e50;
   color: #ffffff;
   border-top: none;
+}
+
+.footer {
 }
 
 @media (max-width: 768px) {

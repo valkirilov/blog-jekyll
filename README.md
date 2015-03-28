@@ -10,3 +10,6 @@ http://www.jekyll-plugins.com/
 https://github.com/kinnetica/jekyll-plugins
 https://github.com/yihangho/emoji-for-jekyll
 http://www.jekyll-plugins.com/plugins/simple-jekyll-search
+
+# How to run it
+```jekyll serve --baseurl```
