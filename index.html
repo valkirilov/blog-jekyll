@@ -10,64 +10,178 @@
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
-    <link rel="stylesheet" href="/blog/css/main.css">
-    <link rel="canonical" href="valkirilov.github.io/blog//blog/">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="valkirilov.github.io/blog//" />
+
+    <!-- Loading Bootstrap styles -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
 </head>
 
-  <link rel="stylesheet" href="/blog/css/home.css">
+  <link rel="stylesheet" href="/css/home.css">
 
   <body>
 
-    <header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="/blog/">Blog - Valentin Kirilov</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-          <a class="page-link" href="/blog/about/">About</a>
-          
-        
-          
-          <a class="page-link" href="/blog/blog/">Blog</a>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-          <a class="page-link" href="/blog/projects/">Projects</a>
-          
-        
-      </div>
-    </nav>
-
-  </div>
-
-</header>
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        Index
+    <!-- Fixed navbar -->
+    <div id="header-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Blog - Valentin Kirilov</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- <li><a href="#home">Home</a></li> -->
+            <li><a href="/blog">Blog</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#section-projects">JSpres</a></li>
+                <li><a href="#section-projects">Easy-math</a></li>
+                <li><a href="#section-projects">What-to-do?</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Hibernated</li>
+                <li><a href="#section-projects">Gifty Cards</a></li>
+              </ul>
+            </li>
+            <li><a href="#section-about">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
+
+    <div class="container-fluid">
+
+  <div class="parallax-window" data-parallax="scroll" data-bleed="3" data-natural-width="1680" data-natural-height="400"
+                              data-image-src="/images/background-02.jpg"
+                              data-speed="0.5" >
+
+    <div class="container">
+      <div id="home">
+          <div class="avatar">
+              <img src="images/home-avatar.png" title="Valentin Kirilov" alt="" />
+              <div class="shader"></div>
+          </div>
+          <div class="name">
+              <div class="first">Valentin</div>
+              <div class="family">Kirilov</div>
+          </div>
+          <div class="developement">
+              WEB DEV
+          </div>
+
+          <div class="decoration-01"></div>
+          <div class="decoration-02"></div>
+          <div class="decoration-03"></div>
+
+          <div class="description">
+              Welcome to my portfolio. You can checkout it to learn more about me or you can find me in the social networks below.
+          </div>
+
+          <div class="social">
+              <a href="mailto:val.kirilov@gmail.com" target="_blank"><img src="images/icons/email-icon.png" /></a>
+              <a href="https://www.linkedin.com/pub/valentin-kirilov/51/993/5b5" target="_blank"><img src="images/icons/linkedin-icon.png" /></a>
+              <a href="https://www.behance.net/valkirilov" target="_blank"><img src="images/icons/behance-icon.png" /></a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-projects" class="row section projects">
+
+    <div class="container">
+      <h1 class="center-block">Projects</h1>
+      <hr class="hr-dot" />
+
+      <div class="row">
+
+        <div id="project-jspres" class="col-sm-4 project flip-container jspres">
+          <div class="flipper">
+            <div class="front">
+              <img src="/images/portfolio/portfolio-jspres.png" />
+            </div>
+            <div class="back">
+              <div class="project-header">JSpres</div>
+              <div class="project-description">
+                It’s a web tool for creating browser-based presentations with impress.js. All you need is time and imagination to make your presentation unique and awesome to impress your audience. 
+              </div>
+              <div class="project-footer"><a href="http://jspres.com" target="_blank">www.JSpres.com</a></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div id="project-easy-math" class="col-sm-4 project flip-container easy-math">
+          <div class="flipper">
+            <div class="front">
+              <img src="/images/portfolio/portfolio-easy-math.png" />
+            </div>
+            <div class="back">
+              <div class="project-header">Easy-math</div>
+              <div class="project-description">
+                It's a simple game that challenges your brain and speed of reaction with easy math problems. <br /><br />
+                The game has a few different modes for playing and it allows you to play different levels and difficulties.
+              </div>
+              <div class="project-footer"><a href="http://valkirilov.github.io/easy-math" target="_blank">www.valkirilov.github.io/easy-math</a></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div id="project-what-to-do" class="col-sm-4 project flip-container what-to-do">
+          <div class="flipper">
+            <div class="front">
+              <img src="/images/portfolio/portfolio-what-to-do.png" />
+            </div>
+            <div class="back">
+              <div class="project-header">What to do?</div>
+              <div class="project-description">
+                Sometimes you have a lot of things on your mind and you cannot choose only one to do. This app can help you..<br /><br />
+                What-to-do is a simple web app that helps you to choose what to do from a list with options.
+              </div>
+              <div class="project-footer"><a href="http://valkirilov.github.io/what-to-do" target="_blank">www.valkirilov.github.io/what-to-do</a></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container" data-parallax="scroll" data-bleed="5" data-natural-height="400"
+                                data-image-src="/images/parallax/background-03.jpg"></div>
+
+  <div id="section-about" class="row section about">
+    <div class="container">
+      <h1 class="center-block">About</h1>
+      <hr class="hr-dot" />
+
+      <div class="col-sm-6">
+        <p>Here I should place something about me, a few words that can tel something about me, yup I repeated myself.</p>
+      </div>
+      <div class="col-sm-6">
+        <iframe src="http://valkirilov.github.io/easy-math/#/embeded" width="100%" height="300px" border="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container" data-parallax="scroll" data-bleed="5" data-natural-height="400"
+                                data-image-src="/images/parallax/background-02.jpg"></div>
+
+</div>
+
 
     <footer class="site-footer">
 
@@ -78,7 +192,8 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>Blog - Valentin Kirilov</li>
+          <li>Software Developer</li>
+          <li>Founder of JSpres</li>
           <li><a href="mailto:val.kirilov[at-@]gmail.com">val.kirilov[at-@]gmail.com</a></li>
         </ul>
       </div>
@@ -117,8 +232,19 @@
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</p>
+        <ul class="posts">  
+            
+            <li>  
+              <a href="/jekyll/update/2014/10/11/welcome-to-jekyll.html">Welcome to Jekyll!</a>  &raquo; 
+              <span>11 Oct 2014</span>
+            </li>  
+            
+            <li>  
+              <a href="/js/css/2014/10/11/first-post.html">First Post</a>  &raquo; 
+              <span>11 Oct 2014</span>
+            </li>  
+            
+        </ul>
       </div>
     </div>
 
@@ -126,6 +252,12 @@
 
 </footer>
 
+<!-- Loading Bootstrap JS at the bottom of the page -->
+<script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/bower_components/parallax/parallax.js"></script>
+
+
+    <script src="/js/home.js"></script>
 
   </body>
 
