@@ -431,13 +431,13 @@ body {
       }
 
       &.jspres .back {
-        background: red;
+        background: #3498db /* 3498db */;
       }
       &.easy-math .back {
-        background: green;
+        background: #3498db;
       }
       &.what-to-do .back {
-        background: blue;
+        background: #f1c40f; /* 2ecc71 e67e22 3498db*/
       }
     }
   }
