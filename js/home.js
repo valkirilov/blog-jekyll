@@ -36,7 +36,7 @@ $(document).ready(function() {
 
  });
 
- $(document).on('click', '.project', function() {
+ $(document).on('click, tap, touchstart', '.project', function() {
    $(this).toggleClass('hover');
  });
 });
