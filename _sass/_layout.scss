@@ -1,8 +1,19 @@
+html,
+body {
+    height:100%;
+}
+
+.main-wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
 /**
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    /* border-top: 5px solid $grey-color-dark; */
+    border-top: 5px solid #2c3e50;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -87,7 +98,6 @@
 }
 
 
-
 /**
  * Site footer
  */
@@ -96,6 +106,10 @@
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     color: #ecf0f1;
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 
     a {
         color: #f1c40f;
@@ -174,6 +188,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    padding-bottom: 350px;
 }
 
 .page-heading {

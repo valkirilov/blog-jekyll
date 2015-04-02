@@ -2,6 +2,7 @@
 ---
 
 @import 'partial';
+@import 'fonts';
 
 html,
 body {
@@ -10,6 +11,8 @@ body {
 
   margin: 0;
   padding: 0;
+
+  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
 }
 
 body {
@@ -24,6 +27,8 @@ iframe {
 
 .navbar.navbar-fixed-top {
   height: 100px;
+  border-top: 5px solid #2c3e50;
+  border-bottom: 1px solid #e8e8e8;
 
   @include transition(0.5s, 0.5s);
 
@@ -41,13 +46,36 @@ iframe {
   }
 }
 
+.container-image {
+  width: 100%;
+
+  &.top {
+    background: url('/images/parallax/vim-rotated-low.jpg') top center;
+    background-size: cover;
+  }
+
+  &.projects {
+    height: 400px;
+    background: url('/images/parallax/background-02-low.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  &.about {
+    height: 400px;
+    background: url('/images/parallax/mcdonalds-low.jpg') top center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
 
 .parallax-window {
-  background: url('/images/parallax/vim-rotated-low.jpg') top center;
+
   min-height: 400px;
   background-size: cover;
 }
@@ -76,8 +104,8 @@ iframe {
 	height: 720px;
   margin: 50px auto;
 
-  font-family: exo, jura, electrolize, tahoma;
   text-align: center;
+  font-family: 'Jura', Helvetica, Arial, sans-serif;
 }
 #home .avatar {
     background: #2677b6;
@@ -140,7 +168,6 @@ iframe {
     @include transform(rotate(-150deg) scale(0, 0));
     @include transition(0.6s, 0.3s);
 
-    font-family: exo, jura, electrolize, tahoma;
     font-size: 14pt;
     color: #ffffff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
@@ -168,7 +195,6 @@ iframe {
 
     font-size: 14pt;
     color: #FFFFFF;
-    font-family: exo, jura, electrolize, tahoma;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 
     @include transform(translateY(500px));
@@ -183,7 +209,6 @@ iframe {
 
     font-size: 14pt;
     color: #FFFFFF;
-    font-family: exo, jura, electrolize, tahoma;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 
     @include transform(translateY(300px));
@@ -215,7 +240,6 @@ iframe {
 
     opacity: 0;
 
-    font-family: exo, jura, electrolize, tahoma;
     font-size: 10pt;
     color: #ffffff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -473,6 +497,7 @@ footer.site-footer {
   background: #2c3e50;
   color: #ffffff;
   border-top: none;
+  position: relative !important;
 }
 
 .footer {
